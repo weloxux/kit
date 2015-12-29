@@ -39,6 +39,42 @@ instruments = {
 		key = "y",
 		label = "Crash",
 		active = true
+	},
+	kick = {
+		wave = "MTKickDrum",
+		key = "u",
+		label = "Kick",
+		active = true
+	},
+	snare = {
+		wave = "MTSnareAcou",
+		key = "i",
+		label = "Snare",
+		active = true
+	},
+	congahigh = {
+		wave = "MTCongaHigh",
+		key = "g",
+		label = "Conga high",
+		active = true
+	},
+	congalow = {
+		wave = "MTCongaLow",
+		key = "h",
+		label = "Conga low",
+		active = true
+	},
+	congamuthi = {
+		wave = "MTCongaMutHi",
+		key = "j",
+		label = "Conga (high mute)",
+		active = true
+	},
+	cowbell = {
+		wave = "MTCowbell",
+		key = "k",
+		label = "Cowbell",
+		active = true
 	}
 }	
 

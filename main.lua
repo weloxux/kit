@@ -28,6 +28,7 @@ function love.load()
 
 	pads = {}
 	for k,v in pairs(instruments) do
+		print(v.label)
 		if v.active == true then
 			table.insert(pads, v)
 		end
@@ -36,8 +37,6 @@ function love.load()
 
 	columns = count / 2
 	rows = 2
-
-	--timer = 0
 
 	buttheight = height / 2
 	buttwidth = width / columns
