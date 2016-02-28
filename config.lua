@@ -74,5 +74,4 @@ instruments = {
 		label = "Cowbell",
 		active = true
 	}
-}	
-
+}
