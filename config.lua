@@ -25,8 +25,6 @@ butt.style = colorschemes.midnight
 -- Global settings --
 latency = 0.16 -- Default is 0.16
 
-count = 8 -- Amount of instruments
-
 instruments = {
 	hat_closed = {
 		wave = "MTHatClosed",
