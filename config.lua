@@ -26,49 +26,49 @@ butt.style = colorschemes.midnight
 latency = 0.16 -- Default is 0.16
 
 instruments = {
-	hat_closed = {
+	{
 		wave = "MTHatClosed",
 		key = "t",
 		label = "Hat (closed)",
 		active = true
 	},
-	crash = {
+	{
 		wave = "MTCrashCymbl",
 		key = "y",
 		label = "Crash",
 		active = true
 	},
-	kick = {
+	{
 		wave = "MTKickDrum",
 		key = "u",
 		label = "Kick",
 		active = true
 	},
-	snare = {
+	{
 		wave = "MTSnareAcou",
 		key = "i",
 		label = "Snare",
 		active = true
 	},
-	congahigh = {
+	{
 		wave = "MTCongaHigh",
 		key = "g",
 		label = "Conga high",
 		active = true
 	},
-	congalow = {
+	{
 		wave = "MTCongaLow",
 		key = "h",
 		label = "Conga low",
 		active = true
 	},
-	congamuthi = {
+	{
 		wave = "MTCongaMutHi",
 		key = "j",
 		label = "Conga (high mute)",
 		active = true
 	},
-	cowbell = {
+	{
 		wave = "MTCowbell",
 		key = "k",
 		label = "Cowbell",

@@ -26,9 +26,9 @@ function love.load()
 
 	width, height = love.graphics.getDimensions()
 
+	-- Load only active instruments
 	pads = {}
 	for k,v in pairs(instruments) do
-		print(v.label)
 		if v.active == true then
 			table.insert(pads, v)
 		end
