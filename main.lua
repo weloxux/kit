@@ -1,7 +1,7 @@
 require "butt" -- Buttons
 require "config"
 
-local function Proxy(f) -- Proxy function for sprites and audio
+local function Proxy(f) -- Proxy function for audio
 	return setmetatable({}, {__index = function(self, k)
 		local v = f(k)
 		rawset(self, k, v)
