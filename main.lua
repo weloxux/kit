@@ -27,7 +27,7 @@ local function Proxy(f) -- Proxy function for audio
 	end})
 end
 
-s = Proxy(function(k) return love.audio.newSource(love.sound.newSoundData("sample/"..k..".wav")) end)
+local s = Proxy(function(k) return love.audio.newSource(love.sound.newSoundData("sample/"..k..".wav")) end)
 
 function changesample(nsample)
 	butt.func("love.audio.play(" .. tostring(nsample) .. ")")
