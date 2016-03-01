@@ -27,7 +27,7 @@ local function Proxy(f) -- Proxy function for audio
 	end})
 end
 
-local s = Proxy(function(k) return love.audio.newSource(love.sound.newSoundData("sample/"..k..".wav")) end)
+s = Proxy(function(k) return love.audio.newSource(love.sound.newSoundData("sample/"..k..".wav")) end)
 
 function changesample(nsample)
 	butt.func("love.audio.play(" .. tostring(nsample) .. ")")
@@ -39,8 +39,8 @@ function hit(sample, num)
 end
 
 function love.load()
-	print("Welcome to kit!")
-	print("Samples should be in ./sample")
+	print "Welcome to kit!"
+	print "Samples should be in ./sample"
 
 	width, height = love.graphics.getDimensions()
 
