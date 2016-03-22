@@ -51,6 +51,12 @@ instruments = {
 		active = true
 	},
 	{
+		wave = "MTHandClap",
+		key = "o",
+		label = "Clap",
+		active = false
+	},
+	{
 		wave = "MTCongaHigh",
 		key = "g",
 		label = "Conga high",
@@ -73,5 +79,11 @@ instruments = {
 		key = "k",
 		label = "Cowbell",
 		active = true
+	},
+	{
+		wave = "MTMaracas",
+		key = "l",
+		label = "Maracas",
+		active = false
 	}
 }
